@@ -427,8 +427,8 @@ h6 {
 # Global Footer
 --------------------------------------------------------------*/
 .footer {
-  color: var(--default-color);
-  background-color: var(--background-color);
+  color: white;
+  background-color: #384b70 !important;
   font-size: 14px;
   padding: 40px 0;
   position: relative;
@@ -1507,4 +1507,8 @@ section,
 
 .skill-logo {
   margin-right: 5px;
+}
+
+li {
+  font-family: monospace;
 }
